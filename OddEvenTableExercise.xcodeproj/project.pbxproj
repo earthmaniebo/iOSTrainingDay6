@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B94EC78A237005FD006A312D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC789237005FD006A312D /* AppDelegate.m */; };
+		B94EC790237005FD006A312D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94EC78E237005FD006A312D /* Main.storyboard */; };
+		B94EC792237005FE006A312D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94EC791237005FE006A312D /* Assets.xcassets */; };
+		B94EC795237005FE006A312D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94EC793237005FE006A312D /* LaunchScreen.storyboard */; };
+		B94EC798237005FE006A312D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC797237005FE006A312D /* main.m */; };
+		B94EC7A2237005FE006A312D /* OddEvenTableExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC7A1237005FE006A312D /* OddEvenTableExerciseTests.m */; };
+		B94EC7AD237005FE006A312D /* OddEvenTableExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC7AC237005FE006A312D /* OddEvenTableExerciseUITests.m */; };
+		B94EC7BC2370073A006A312D /* OddEvenColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC7BB2370073A006A312D /* OddEvenColoredViewController.m */; };
+		B94EC7C023700799006A312D /* OddEvenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC7BF23700799006A312D /* OddEvenTableViewCell.m */; };
+		B94EC7C2237007A9006A312D /* OddEvenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94EC7C1237007A9006A312D /* OddEvenTableViewCell.xib */; };
+		B94EC7C523700A79006A312D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94EC7C423700A79006A312D /* DetailsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B94EC79E237005FE006A312D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94EC77D237005FD006A312D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94EC784237005FD006A312D;
+			remoteInfo = OddEvenTableExercise;
+		};
+		B94EC7A9237005FE006A312D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94EC77D237005FD006A312D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94EC784237005FD006A312D;
+			remoteInfo = OddEvenTableExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B94EC785237005FD006A312D /* OddEvenTableExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddEvenTableExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94EC788237005FD006A312D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B94EC789237005FD006A312D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B94EC78F237005FD006A312D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94EC791237005FE006A312D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94EC794237005FE006A312D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94EC796237005FE006A312D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94EC797237005FE006A312D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B94EC79D237005FE006A312D /* OddEvenTableExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenTableExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94EC7A1237005FE006A312D /* OddEvenTableExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OddEvenTableExerciseTests.m; sourceTree = "<group>"; };
+		B94EC7A3237005FE006A312D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94EC7A8237005FE006A312D /* OddEvenTableExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddEvenTableExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94EC7AC237005FE006A312D /* OddEvenTableExerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OddEvenTableExerciseUITests.m; sourceTree = "<group>"; };
+		B94EC7AE237005FE006A312D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94EC7BA2370073A006A312D /* OddEvenColoredViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OddEvenColoredViewController.h; sourceTree = "<group>"; };
+		B94EC7BB2370073A006A312D /* OddEvenColoredViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OddEvenColoredViewController.m; sourceTree = "<group>"; };
+		B94EC7BE23700799006A312D /* OddEvenTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OddEvenTableViewCell.h; sourceTree = "<group>"; };
+		B94EC7BF23700799006A312D /* OddEvenTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OddEvenTableViewCell.m; sourceTree = "<group>"; };
+		B94EC7C1237007A9006A312D /* OddEvenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OddEvenTableViewCell.xib; sourceTree = "<group>"; };
+		B94EC7C323700A79006A312D /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		B94EC7C423700A79006A312D /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94EC782237005FD006A312D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94EC79A237005FE006A312D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94EC7A5237005FE006A312D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B94EC77C237005FD006A312D = {
+			isa = PBXGroup;
+			children = (
+				B94EC787237005FD006A312D /* OddEvenTableExercise */,
+				B94EC7A0237005FE006A312D /* OddEvenTableExerciseTests */,
+				B94EC7AB237005FE006A312D /* OddEvenTableExerciseUITests */,
+				B94EC786237005FD006A312D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B94EC786237005FD006A312D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94EC785237005FD006A312D /* OddEvenTableExercise.app */,
+				B94EC79D237005FE006A312D /* OddEvenTableExerciseTests.xctest */,
+				B94EC7A8237005FE006A312D /* OddEvenTableExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94EC787237005FD006A312D /* OddEvenTableExercise */ = {
+			isa = PBXGroup;
+			children = (
+				B94EC788237005FD006A312D /* AppDelegate.h */,
+				B94EC789237005FD006A312D /* AppDelegate.m */,
+				B94EC7C323700A79006A312D /* DetailsViewController.h */,
+				B94EC7C423700A79006A312D /* DetailsViewController.m */,
+				B94EC7BD23700777006A312D /* Cell */,
+				B94EC7BA2370073A006A312D /* OddEvenColoredViewController.h */,
+				B94EC7BB2370073A006A312D /* OddEvenColoredViewController.m */,
+				B94EC78E237005FD006A312D /* Main.storyboard */,
+				B94EC791237005FE006A312D /* Assets.xcassets */,
+				B94EC793237005FE006A312D /* LaunchScreen.storyboard */,
+				B94EC796237005FE006A312D /* Info.plist */,
+				B94EC797237005FE006A312D /* main.m */,
+			);
+			path = OddEvenTableExercise;
+			sourceTree = "<group>";
+		};
+		B94EC7A0237005FE006A312D /* OddEvenTableExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B94EC7A1237005FE006A312D /* OddEvenTableExerciseTests.m */,
+				B94EC7A3237005FE006A312D /* Info.plist */,
+			);
+			path = OddEvenTableExerciseTests;
+			sourceTree = "<group>";
+		};
+		B94EC7AB237005FE006A312D /* OddEvenTableExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B94EC7AC237005FE006A312D /* OddEvenTableExerciseUITests.m */,
+				B94EC7AE237005FE006A312D /* Info.plist */,
+			);
+			path = OddEvenTableExerciseUITests;
+			sourceTree = "<group>";
+		};
+		B94EC7BD23700777006A312D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B94EC7BE23700799006A312D /* OddEvenTableViewCell.h */,
+				B94EC7BF23700799006A312D /* OddEvenTableViewCell.m */,
+				B94EC7C1237007A9006A312D /* OddEvenTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94EC784237005FD006A312D /* OddEvenTableExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94EC7B1237005FE006A312D /* Build configuration list for PBXNativeTarget "OddEvenTableExercise" */;
+			buildPhases = (
+				B94EC781237005FD006A312D /* Sources */,
+				B94EC782237005FD006A312D /* Frameworks */,
+				B94EC783237005FD006A312D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OddEvenTableExercise;
+			productName = OddEvenTableExercise;
+			productReference = B94EC785237005FD006A312D /* OddEvenTableExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B94EC79C237005FE006A312D /* OddEvenTableExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94EC7B4237005FE006A312D /* Build configuration list for PBXNativeTarget "OddEvenTableExerciseTests" */;
+			buildPhases = (
+				B94EC799237005FE006A312D /* Sources */,
+				B94EC79A237005FE006A312D /* Frameworks */,
+				B94EC79B237005FE006A312D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94EC79F237005FE006A312D /* PBXTargetDependency */,
+			);
+			name = OddEvenTableExerciseTests;
+			productName = OddEvenTableExerciseTests;
+			productReference = B94EC79D237005FE006A312D /* OddEvenTableExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B94EC7A7237005FE006A312D /* OddEvenTableExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94EC7B7237005FE006A312D /* Build configuration list for PBXNativeTarget "OddEvenTableExerciseUITests" */;
+			buildPhases = (
+				B94EC7A4237005FE006A312D /* Sources */,
+				B94EC7A5237005FE006A312D /* Frameworks */,
+				B94EC7A6237005FE006A312D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94EC7AA237005FE006A312D /* PBXTargetDependency */,
+			);
+			name = OddEvenTableExerciseUITests;
+			productName = OddEvenTableExerciseUITests;
+			productReference = B94EC7A8237005FE006A312D /* OddEvenTableExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94EC77D237005FD006A312D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Earth Maniebo";
+				TargetAttributes = {
+					B94EC784237005FD006A312D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B94EC79C237005FE006A312D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B94EC784237005FD006A312D;
+					};
+					B94EC7A7237005FE006A312D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B94EC784237005FD006A312D;
+					};
+				};
+			};
+			buildConfigurationList = B94EC780237005FD006A312D /* Build configuration list for PBXProject "OddEvenTableExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B94EC77C237005FD006A312D;
+			productRefGroup = B94EC786237005FD006A312D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94EC784237005FD006A312D /* OddEvenTableExercise */,
+				B94EC79C237005FE006A312D /* OddEvenTableExerciseTests */,
+				B94EC7A7237005FE006A312D /* OddEvenTableExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94EC783237005FD006A312D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94EC795237005FE006A312D /* LaunchScreen.storyboard in Resources */,
+				B94EC7C2237007A9006A312D /* OddEvenTableViewCell.xib in Resources */,
+				B94EC792237005FE006A312D /* Assets.xcassets in Resources */,
+				B94EC790237005FD006A312D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94EC79B237005FE006A312D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94EC7A6237005FE006A312D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94EC781237005FD006A312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94EC798237005FE006A312D /* main.m in Sources */,
+				B94EC7C523700A79006A312D /* DetailsViewController.m in Sources */,
+				B94EC7C023700799006A312D /* OddEvenTableViewCell.m in Sources */,
+				B94EC78A237005FD006A312D /* AppDelegate.m in Sources */,
+				B94EC7BC2370073A006A312D /* OddEvenColoredViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94EC799237005FE006A312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94EC7A2237005FE006A312D /* OddEvenTableExerciseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94EC7A4237005FE006A312D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94EC7AD237005FE006A312D /* OddEvenTableExerciseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B94EC79F237005FE006A312D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94EC784237005FD006A312D /* OddEvenTableExercise */;
+			targetProxy = B94EC79E237005FE006A312D /* PBXContainerItemProxy */;
+		};
+		B94EC7AA237005FE006A312D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94EC784237005FD006A312D /* OddEvenTableExercise */;
+			targetProxy = B94EC7A9237005FE006A312D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B94EC78E237005FD006A312D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94EC78F237005FD006A312D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B94EC793237005FE006A312D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94EC794237005FE006A312D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94EC7AF237005FE006A312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B94EC7B0237005FE006A312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94EC7B2237005FE006A312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = OddEvenTableExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.OddEvenTableExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B94EC7B3237005FE006A312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = OddEvenTableExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.OddEvenTableExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B94EC7B5237005FE006A312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = OddEvenTableExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.OddEvenTableExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenTableExercise.app/OddEvenTableExercise";
+			};
+			name = Debug;
+		};
+		B94EC7B6237005FE006A312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = OddEvenTableExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.OddEvenTableExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddEvenTableExercise.app/OddEvenTableExercise";
+			};
+			name = Release;
+		};
+		B94EC7B8237005FE006A312D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = OddEvenTableExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.OddEvenTableExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OddEvenTableExercise;
+			};
+			name = Debug;
+		};
+		B94EC7B9237005FE006A312D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = OddEvenTableExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.OddEvenTableExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OddEvenTableExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94EC780237005FD006A312D /* Build configuration list for PBXProject "OddEvenTableExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94EC7AF237005FE006A312D /* Debug */,
+				B94EC7B0237005FE006A312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94EC7B1237005FE006A312D /* Build configuration list for PBXNativeTarget "OddEvenTableExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94EC7B2237005FE006A312D /* Debug */,
+				B94EC7B3237005FE006A312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94EC7B4237005FE006A312D /* Build configuration list for PBXNativeTarget "OddEvenTableExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94EC7B5237005FE006A312D /* Debug */,
+				B94EC7B6237005FE006A312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94EC7B7237005FE006A312D /* Build configuration list for PBXNativeTarget "OddEvenTableExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94EC7B8237005FE006A312D /* Debug */,
+				B94EC7B9237005FE006A312D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B94EC77D237005FD006A312D /* Project object */;
+}
